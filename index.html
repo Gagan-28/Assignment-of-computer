@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Hyperlink</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+        <body>
+            <nav class="navbar-inverse my_nav_bar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">ARMY PUBLIC SCHOOL NARANGI</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav" id="menu">
+                        <li class="list"><a href="#welcome">Home</a></li>
+                        <li class="list"><a href="#about us">About Us</a></li>
+                        <li class="list"><a href="#academics">Academics</a></li>
+                        <li class="list"><a href="#staff">staff</a></li>
+                        <li class="list"><a href="#achievement">Achievement</a></li>
+                        <li class="list"><a href="#online payment">Online Payment</a></li>
+                        <li class="list"><a href="#contact us">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+                    *** Feel free to ask queries on apsnarangi@gmail.com
+                </marquee>
+            </div>
+            <section id="welcome">
+                <center>
+                    <img src="School.jpg">
+                    <h1>Welcome to my HTML</h1>
+                    <h2>We are learning Hyperlink</h2>
+                    <a href="https://www.apsnarangi.com/"><h2>Visit my school website</h2></a>
+                </center>
+            </section>
+            <div class="page-header" id="achievement">
+                <h2 class="text-capitalize">School Achievements</h2>
+            </div>
+            <!--Achievements-->
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+                Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+            </div>
+        </body>
+</html>
